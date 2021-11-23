@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "roboto";
+}
+header{
+    background-image: url(https://cdn.pixabay.com/photo/2017/02/08/17/24/fantasy-2049567_960_720.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.main .logo{
+    float: left;
+    width: 20px;
+    height: 30px;
+}
+main .logo img{
+    height: 10px;
+    width: 20px;
+}
+.main .left-side{
+    float: right;
+    
+}
+.clear{
+    clear: both;
+}
+.main ul li {
+    display: inline;
+    padding-right: 70px;
+}
+.main ul li a{
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(252, 248, 248);
+    font-weight: bold;
+    line-height: 70px;
+    text-align: center; 
+    
+}
+.main ul li a:hover{
+    background-color: salmon;
+    border-radius: 10px;
+    text-align: center;
+}
+.demo{
+    color: red;
+    font-size: 200px;
+}
+p{
+    font-size: 100px;
+    color: blue;
+    border-bottom: 10px green solid;
+}
